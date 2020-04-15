@@ -1,5 +1,5 @@
 CREATE TABLE HappinesRank (
-    happines_score INT NOT NULL PRIMARY KEY
+    happines_score FLOAT(126) NOT NULL PRIMARY KEY
     ,hapinnes_rank INT NOT NULL
 );
 
@@ -12,7 +12,7 @@ CREATE TABLE CountryRegion (
 
 CREATE TABLE CountryHappinesScore(
     country  VARCHAR(100)  NOT NULL PRIMARY KEY
-    , happines_score  INT NOT NULL REFERENCES HappinesRank(happines_score)
+    , happines_score  FLOAT(126) NOT NULL REFERENCES HappinesRank(happines_score)
     , economy  FLOAT(126)
     , family 	FLOAT(126)
     , health 	FLOAT(126)
