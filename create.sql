@@ -9,6 +9,7 @@ CREATE TABLE CountryRegion (
     ,region VARCHAR(150) NOT NULL
 );
 
+
 CREATE TABLE CountryHappinesScore(
     country  VARCHAR(100)  NOT NULL PRIMARY KEY
     , happines_score  INT NOT NULL REFERENCES HappinesRank(happines_score)
@@ -18,5 +19,6 @@ CREATE TABLE CountryHappinesScore(
     , freedom 	FLOAT(126)
     , trust 	FLOAT(126)
     , generosity 	FLOAT(126)
+    , dystopia_residual FLOAT(126)
 
 )
