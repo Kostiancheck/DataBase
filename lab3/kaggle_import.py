@@ -19,7 +19,7 @@ with open(filename, newline='') as file:
         family = el[6]
         health = el[7]
         freedom = el[8]
-        trust = el[8]
+        trust = el[9]
         generosity = el[10]
         dystopia_residual = el[11]
 
