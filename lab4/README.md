@@ -5,3 +5,5 @@
 3. trigger.sql
 4. package.sql
 5. run.sql
+
+P.S. Я не створював таблиці trust, family, health etc (окрім economy та destopya residual) просто аби полегшити собі життя і не робити багато зайвої рутинної роботи.
